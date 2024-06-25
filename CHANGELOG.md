@@ -1,5 +1,9 @@
 ## ChangeLog
 
+#### Version 0.7.8 (25.06.2024)
+- [feature:] Added support to Android SDK 34
+- [feature:] Added dataSync service type
+
 #### Version 0.7.3 (07.08.2019)
 This is more a "just publish all changes after long time" release.
 - [___change___:] Removed code for Windows 10 Mobile
