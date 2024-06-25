@@ -1,5 +1,8 @@
 ## ChangeLog
 
+#### Version 0.7.10 (25.06.2024)
+- [bugfix:] Fix foreground type dataSync
+
 #### Version 0.7.8 (25.06.2024)
 - [feature:] Added support to Android SDK 34
 - [feature:] Added dataSync service type
