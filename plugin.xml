@@ -3,13 +3,13 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-background-mode"
-        version="0.7.10">
+        version="0.7.11">
 
     <name>BackgroundMode</name>
 
     <description>Prevent apps from going to sleep in background.</description>
 
-    <repo>https://github.com/katzer/cordova-plugin-background-mode.git</repo>
+    <repo>https://github.com/wunschradio/cordova-plugin-background-mode.git</repo>
 
     <keywords>appplant, background</keywords>
 
@@ -73,7 +73,7 @@
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <service
               android:name="de.appplant.cordova.plugin.background.ForegroundService"
-              android:foregroundServiceType="dataSync"
+              android:foregroundServiceType="mediaPlayback"
               android:exported="false">
             </service>
         </config-file>
@@ -84,6 +84,10 @@
 
         <config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+            <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
         </config-file>
 
         <source-file
