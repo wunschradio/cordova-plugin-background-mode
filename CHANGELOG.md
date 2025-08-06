@@ -1,6 +1,6 @@
 ## ChangeLog
 
-#### Version 0.7.10 (06.08.2025)
+#### Version 0.7.11 (06.08.2025)
 - [___change___:] Removed foreground type dataSync
 - 
 #### Version 0.7.10 (25.06.2024)
